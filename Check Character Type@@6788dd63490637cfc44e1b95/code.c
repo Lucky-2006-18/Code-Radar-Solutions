@@ -2,7 +2,7 @@
 int main(){
     char b;
     scanf("%c",&b);
-    if(isalpha(a)){
+    if(isalpha(b)){
         a=islower(b);
         if(a=="a"||a=="i"||a=="e"||a=="o"||a=="u"){
             printf("Vowel");
