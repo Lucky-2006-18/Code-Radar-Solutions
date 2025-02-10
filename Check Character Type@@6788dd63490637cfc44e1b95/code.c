@@ -3,7 +3,7 @@ int main(){
     char b;
     scanf("%c",&b);
     if(isalpha(b)){
-        a=islower(b);
+        a=tolower(b);
         if(a=="a"||a=="i"||a=="e"||a=="o"||a=="u"){
             printf("Vowel");
         }
