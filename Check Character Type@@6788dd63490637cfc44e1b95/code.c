@@ -3,7 +3,6 @@
 int main() {
     char b;
     
-    printf("Enter a character: ");
     scanf("%c", &b);
 
     if (isalpha(b)) { // Check if b is a letter
