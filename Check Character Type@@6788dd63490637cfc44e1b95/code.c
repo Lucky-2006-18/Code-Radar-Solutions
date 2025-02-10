@@ -12,6 +12,7 @@ int main(){
     }
     else if(b==1||b==2||b==3||b==4||b==5||b==6||b==7||b==8||b==9||b==0)
     printf("Digit");
-    elseprintf("Special Character");
+    else
+    printf("Special Character");
     return 0;
 }
