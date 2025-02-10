@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<ctype.h>
 int main(){
-    char b;
+    char b,a;
     scanf("%c",&b);
     if(isalpha(b)){
         a=tolower(b);
