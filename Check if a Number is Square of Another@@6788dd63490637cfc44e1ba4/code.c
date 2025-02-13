@@ -2,7 +2,7 @@
 #include<math.h>
 int main()
 {
-    int a,b,c;
+    float a,b,c;
     scanf("%d%d",&a,&b);
     c=pow(a,0.5);
     if(b==c){
