@@ -5,9 +5,11 @@ int main()
     int a,b,c;
     scanf("%d%d",&a,&b);
     c=pow(a,0.5);
-    if(b==c)
+    if(b==c){
     printf("Yes");
+    }
     else
-     printf("No");
-     return 0;
+{     printf("No");
+    
+ } return 0;
 }
