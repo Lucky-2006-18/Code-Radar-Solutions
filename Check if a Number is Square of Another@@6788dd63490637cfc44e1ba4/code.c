@@ -8,8 +8,8 @@ int main()
     if(b==c){
     printf("Yes");
     }
-    else
-{     printf("No");
-    
- } return 0;
+    else{
+    printf("No");
+    }
+     return 0;
 }
