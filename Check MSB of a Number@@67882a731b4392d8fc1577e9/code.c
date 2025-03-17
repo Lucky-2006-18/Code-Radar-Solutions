@@ -3,7 +3,7 @@
 int main(){
     int num,b;
     scanf("%d",&num);
-    b= 1 << (num-1);
+    b= 1 << (BITS-1);
     if(num&b){
         printf("Set");
     }   
