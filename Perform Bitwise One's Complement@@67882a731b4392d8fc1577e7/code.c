@@ -3,5 +3,5 @@ int main(){
     int n,b;
     scanf("%d",&n);
     b= ~n;
-    printf("%d",&b);
+    printf("%d",b);
 }
