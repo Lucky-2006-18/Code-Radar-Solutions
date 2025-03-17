@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define BITS(sizeof(int))*8
+// #define BITS(sizeof(int))*8
 int main(){
     int num,b;
     scanf("%d",&num);
