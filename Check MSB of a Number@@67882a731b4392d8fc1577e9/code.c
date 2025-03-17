@@ -1,9 +1,9 @@
 #include<stdio.h>
-// #define BITS(sizeof(int))*8
+#define BITS (sizeof(int))*8
 int main(){
     int num,b;
     scanf("%d",&num);
-    b= 1 << (num-1);
+    b= 1 << (BITS-1);
     if(num&b){
         printf("Set");
     }   
