@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    for(int j=0; j<n; j++){
+    for(int j=0; j<b; j++){
         if(arr[j]==b){
             c++;
         }
